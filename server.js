@@ -7,7 +7,7 @@ var path = require("path");
 
 //set up Express
 var app = express();
-var PORT = 3000;
+var PORT = 9000;
 
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
@@ -16,11 +16,11 @@ app.use(express.json());
 // Routes
 // Basic route that sends the user first to the AJAX Page
 app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname, "home.html"));
+    res.sendFile(path.join(__dirname, "/app/public/home.html"));
   });
   
   app.get("/survey", function(req, res) {
-    res.sendFile(path.join(__dirname, "survey.html"));
+    res.sendFile(path.join(__dirname, "/app/public/survey.html"));
   });
   
   
