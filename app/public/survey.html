@@ -15,16 +15,19 @@
       crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
     crossorigin="anonymous"></script>
-
-
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Special+Elite" rel="stylesheet">
 
       <!-- Chosen -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+
+      <!-- CSS -->
+  <link rel="stylesheet" href="../assets/css/style.css">
   </head>
   <body>
 
-    <div class = "container">
+    <div class = "container" id = "surveyContainer">
 
         <h2>Survey Questions</h2>
         <hr>
@@ -132,7 +135,7 @@
         </select>
     
         <h3><strong>Question 9</strong></h3>
-        <h4>You'd rather have 1 brand name shirt than 5 shirts that look good but aren't brand name. </h4>
+        <h4>You'd rather drink an energy drink over coffee. </h4>
         <select class="chosen-select" id="q9">
           <option value=""></option>
           <option value="1">1 (Strongly Disagree)</option>
@@ -186,11 +189,6 @@
         </div>
       </div>
 
-      <!-- <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.jquery.min.js"></script> -->
       <script type="text/javascript">
     // Chosen CSS
     var config = {
@@ -256,7 +254,6 @@
         };
 
         // AJAX post the data to the friends API.
-        // $.post("/api/friends", userData) method("url", dataToSend)
         $.ajax({
           url: "/api/friends",
           method: "POST",

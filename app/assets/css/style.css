@@ -1,0 +1,48 @@
+body {
+    background-image: url('../images/background.png');
+}
+
+#surveyContainer {
+    margin-top: 2rem;
+    background: rgba(77, 77, 77, 0.4);
+    color: #3b5998;
+    font-family: 'Special Elite', cursive;
+}
+
+#homeContent {
+    margin-top: 2rem;
+    background: rgba(77, 77, 77, 0.4);
+    height: 30rem;
+    display: block;
+    text-align: center;
+
+}
+
+.btn {
+    background: #3b5998;
+    color: #f7f7f7;
+}
+
+p {
+    color: #f7f7f7;
+    padding-top: 1rem;
+    padding-top: 2rem;
+    /* font-family: 'Press Start 2P', cursive; */
+    font-family: 'Special Elite', cursive;
+}
+
+h1 {
+    color: #3b5998;
+    padding-top: 1rem;
+    font-family: 'Press Start 2P', cursive;
+    /* font-family: 'Special Elite', cursive; */
+}
+
+
+
+/* h2,
+h3,
+h4 {
+    font-family: 'Press Start 2P', cursive;
+} */
+
