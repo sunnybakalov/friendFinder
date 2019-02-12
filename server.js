@@ -10,13 +10,14 @@ var app = express();
 // var PORT = 9000;
 var PORT = process.env.PORT || 8080;
 
+app.use(express.static(__dirname, 'public'));
 
 // Sets up the Express app to handle data parsing
 // middleware
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// server.use(express.static(__dirname, 'public'));
+
 
 // Routes
 // Basic route that sends the user first to the AJAX Page
