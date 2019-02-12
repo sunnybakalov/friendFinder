@@ -10,6 +10,7 @@ var app = express();
 // var PORT = 9000;
 var PORT = process.env.PORT || 8080;
 
+//without the next line, the CSS does not work when hosting on Heroku!
 app.use(express.static("public"));
 
 // Sets up the Express app to handle data parsing
