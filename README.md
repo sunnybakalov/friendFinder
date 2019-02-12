@@ -1,7 +1,7 @@
 # FRIEND FINDER
 
 <p align="center">
-<img align="center" src="/public/assets/images/home.jpg" width="90%"/>
+<img align="center" src="/app/public/assets/images/home.jpg" width="90%"/>
 </p>
 
 ## SUMMARY
@@ -15,7 +15,7 @@ With Friend Finder you can be matched with a new friend after answering 10 short
 * To utilize Express.js to go to different endpoints.
 
 <p align="center">
-<img align="center" src="/public/assets/images/survey.jpg" width="90%"/>
+<img align="center" src="/app/public/assets/images/survey.jpg" width="90%"/>
 </p>
 
 ## DESIGN PROCESS
