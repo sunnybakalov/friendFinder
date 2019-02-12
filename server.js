@@ -10,7 +10,7 @@ var app = express();
 // var PORT = 9000;
 var PORT = process.env.PORT || 8080;
 
-app.use(express.static(__dirname, 'public'));
+app.use(express.static('public'));
 
 // Sets up the Express app to handle data parsing
 // middleware
