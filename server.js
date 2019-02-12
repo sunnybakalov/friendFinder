@@ -16,7 +16,7 @@ var PORT = process.env.PORT || 8080;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-server.use(express.static('./'));
+server.use(express.static('../app/public/assets/css/style.css'));
 
 // Routes
 // Basic route that sends the user first to the AJAX Page
