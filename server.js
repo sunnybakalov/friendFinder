@@ -7,7 +7,8 @@ var path = require("path");
 
 //set up Express
 var app = express();
-var PORT = 9000;
+// var PORT = 9000;
+var PORT = process.env.PORT || 8080;
 
 // Sets up the Express app to handle data parsing
 // middleware
